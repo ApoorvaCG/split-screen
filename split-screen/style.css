@@ -1,0 +1,71 @@
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+}
+h2,h1{
+  text-align: center;
+  
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position:fixed;
+  z-index: 1;
+  top:0;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.left{
+  left:0;
+}
+.right{
+  right: 0;
+  background-color: 	#a4ceee;
+  box-shadow: -10px 10px 8px #888888;
+}
+
+form {
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform:translate(-50%, -50%);
+  padding: 20px;
+  background: #3b0054;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+form label,
+form input {
+  border: 0;
+  margin-bottom: 3px;
+  display: block;
+  width: 100%;
+  font-weight: 500;
+  line-height: 30px;
+}
+form input {
+  height: 25px;
+  line-height: 25px;
+  opacity: 0.8;
+  color: #000;
+  padding: 0 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.btn {
+  margin: 5% 25%;
+}
+form .error {
+  color: #ff0000;
+}
